@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <radialGradient id="glow" cx="68%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#e84393" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#e84393" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#e84393" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101826"/>
+      <stop offset="100%" stop-color="#0a0f18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1080" height="1080" fill="#07070b"/>
+  <rect x="0" y="0" width="1080" height="1080" fill="url(#glow)"/>
+
+  <!-- headline -->
+  <text x="540" y="118" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="96" font-weight="bold" fill="#ffffff" letter-spacing="1">DCTY IS FICTION.</text>
+  <text x="540" y="192" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="62" font-weight="bold" fill="#e84393" letter-spacing="1">THE BOUNTIES ARE REAL.</text>
+
+  <!-- ============ PHONE (parody in-game trading app) ============ -->
+  <g>
+    <rect x="64" y="248" width="404" height="648" rx="44" fill="#15151d" stroke="#33333f" stroke-width="3"/>
+    <rect x="82" y="266" width="368" height="612" rx="30" fill="url(#screen)"/>
+    <rect x="216" y="280" width="100" height="16" rx="8" fill="#26262f"/>
+
+    <!-- app brand bar -->
+    <text x="108" y="338" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="bold" fill="#ffffff">AudaCity</text>
+    <text x="424" y="338" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#7d8590">TRADE</text>
+    <line x1="108" y1="356" x2="424" y2="356" stroke="#232a38" stroke-width="2"/>
+
+    <!-- coin identity -->
+    <text x="108" y="404" font-family="DejaVu Sans, Arial, sans-serif" font-size="37" font-weight="bold" fill="#ffffff">DacityCoin</text>
+    <text x="108" y="442" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="bold" fill="#e84393">DCTY</text>
+    <text x="424" y="442" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" fill="#7d8590">$0.000000</text>
+
+    <!-- chart grid -->
+    <g stroke="#1b2331" stroke-width="2">
+      <line x1="108" y1="486" x2="424" y2="486"/>
+      <line x1="108" y1="540" x2="424" y2="540"/>
+      <line x1="108" y1="594" x2="424" y2="594"/>
+      <line x1="108" y1="648" x2="424" y2="648"/>
+    </g>
+
+    <!-- chart: rocket up (green) then crash (red) -->
+    <polyline points="112,646 168,624 224,572 272,502 306,472" fill="none" stroke="#2ee66b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="306,472 338,514 372,580 398,628 422,654" fill="none" stroke="#ff3b57" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="306" cy="472" r="9" fill="#ffffff"/>
+
+    <!-- FICTION stamp across the chart -->
+    <g transform="rotate(-16 266 556)">
+      <rect x="146" y="520" width="240" height="66" rx="8" fill="none" stroke="#ff3b57" stroke-width="6"/>
+      <text x="266" y="567" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="44" font-weight="bold" fill="#ff3b57" letter-spacing="6">FICTION</text>
+    </g>
+
+    <!-- crash stat -->
+    <text x="108" y="724" font-family="DejaVu Sans, Arial, sans-serif" font-size="56" font-weight="bold" fill="#ff3b57">-99%</text>
+    <text x="424" y="724" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" fill="#7d8590">in-game only</text>
+
+    <!-- buy / sell buttons -->
+    <rect x="108" y="756" width="146" height="56" rx="12" fill="#1d9e4b"/>
+    <text x="181" y="793" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">BUY</text>
+    <rect x="278" y="756" width="146" height="56" rx="12" fill="#c62f45"/>
+    <text x="351" y="793" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">SELL</text>
+    <text x="266" y="852" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#59616e">not financial advice. not even money.</text>
+  </g>
+
+  <!-- ============ MAKE.FUN GHOST (official mark, drawn as vector shapes) ============ -->
+  <g>
+    <!-- magenta badge -->
+    <circle cx="748" cy="556" r="238" fill="#e84393"/>
+    <!-- ghost body -->
+    <path d="M 622 742 L 622 520 A 126 126 0 0 1 874 520 L 874 742 Q 843 700 812 742 Q 781 700 750 742 Q 719 700 688 742 Q 657 700 622 742 Z" fill="#ffffff"/>
+    <!-- sparkle eyes -->
+    <polygon points="700,486 709,517 740,526 709,535 700,566 691,535 660,526 691,517" fill="#0a0a0f"/>
+    <polygon points="796,486 805,517 836,526 805,535 796,566 787,535 756,526 787,517" fill="#0a0a0f"/>
+    <!-- attached star badge, lower right -->
+    <circle cx="918" cy="712" r="86" fill="#e84393" stroke="#07070b" stroke-width="10"/>
+    <polygon points="918,664 932,696 966,697 939,718 949,751 918,731 887,751 897,718 870,697 904,696" fill="#ffffff"/>
+    <!-- small white dot accent -->
+    <circle cx="872" cy="806" r="27" fill="#ffffff"/>
+  </g>
+
+  <!-- ============ RECEIPT the ghost is holding up ============ -->
+  <g transform="rotate(-7 560 700)">
+    <path d="M 478 622 L 642 622 L 642 782 L 626 766 L 610 782 L 594 766 L 578 782 L 562 766 L 546 782 L 530 766 L 514 782 L 498 766 L 478 782 Z" fill="#ffffff"/>
+    <text x="560" y="672" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a0a0f">BOUNTY</text>
+    <text x="560" y="708" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="bold" fill="#e84393">PAID</text>
+    <line x1="502" y1="728" x2="618" y2="728" stroke="#c9c9d2" stroke-width="6"/>
+    <line x1="502" y1="748" x2="590" y2="748" stroke="#c9c9d2" stroke-width="6"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="524" y="992" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="78" font-weight="bold" fill="#ffffff">make</text>
+  <circle cx="545" cy="978" r="12" fill="#e84393"/>
+  <text x="566" y="992" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="78" font-weight="bold" fill="#ffffff">fun</text>
+</svg>
