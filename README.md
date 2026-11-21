@@ -1,8 +1,8 @@
 # DCTY IS FICTION. THE BOUNTIES ARE REAL. — gta6-meme-x-01 entry v3
 
-![make.fun rank](https://make.fun/api/badges/repos/Alcyone-9/gta6-meme-x-01-v3/rank.svg)
-![make.fun reward](https://make.fun/api/badges/repos/Alcyone-9/gta6-meme-x-01-v3/reward.svg)
-![make.fun](https://make.fun/api/badges/makefun.svg)
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/Alcyone-9/gta6-meme-x-01-v3/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/Alcyone-9/gta6-meme-x-01-v3/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
 A meme entry for the make.fun gta6-meme-x-01 bounty. Inside GTA 6, Rockstar hid a fictional in-game meme coin — DacityCoin (DCTY) by the in-game brand "AudaCity" — and real-world degens still pumped an unofficial token with the same ticker to a $12–18M market cap on launch day. This meme puts the two screens side by side: the parody AudaCity phone app where the coin rockets, crashes −99%, and gets stamped FICTION, versus the make.fun ghost calmly holding a receipt that reads "BOUNTY PAID". The in-game coin is fiction; the bounties are real.
 
